@@ -117,11 +117,11 @@ export const caseStudies = [
     tags: ["Web design", "Hospitality", "Gallery"],
     live: "https://artisan-web-one.vercel.app",
     repo: "https://github.com/revokedkystar/artisan-web",
-    image: "/websitepreview/preview2.png",
-    width: 1857,
-    height: 919,
-    alt: "Artisan Catering homepage with a candlelit banquet hall image slider",
-    bg: "#f1eee8",
+    image: "/websitepreview/artisan.webp",
+    width: 1597,
+    height: 992,
+    alt: "Artisan Catering homepage hero: 'Artisan Catering' over a dressed banquet table with white flowers and blue linen",
+    bg: "#2b2a2c",
   },
 ];
 
