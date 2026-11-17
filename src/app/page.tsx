@@ -6,7 +6,7 @@ import { HERO_DISSOLVE } from "@/components/hero-events";
 import { HashScroll } from "@/components/hash-scroll";
 import { HeroHeadline } from "@/components/hero-headline";
 import { AboutSection } from "@/components/about-section";
-import { ContactSection } from "@/components/contact-section";
+import { ContactCta } from "@/components/contact-cta";
 import { ProcessSection } from "@/components/process-section";
 import { JsonLd } from "@/components/json-ld";
 import { ScrollFx } from "@/components/scroll-fx";
@@ -120,7 +120,7 @@ export default function Home() {
         <PinnedWork items={caseStudies} />
         <Momentum />
         <ProcessSection />
-        <ContactSection />
+        <ContactCta />
       </main>
       <JsonLd data={homeJsonLd} />
       <SiteFooter />
