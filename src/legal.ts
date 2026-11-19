@@ -127,7 +127,7 @@ export const legalPages: LegalPage[] = [
       {
         heading: "Other websites",
         body: [
-          "The site's fonts, images and motion reel are all served from xanti.dev itself, so loading a page doesn't contact other companies. When you follow a link to another site, such as Instagram, LinkedIn, X or GitHub, that site's own cookie policy applies.",
+          "The site's fonts and images are all served from xanti.dev itself, so loading a page doesn't contact other companies. When you follow a link to another site, such as Instagram, LinkedIn, X or GitHub, that site's own cookie policy applies.",
         ],
       },
       {
@@ -339,7 +339,7 @@ export const legalPages: LegalPage[] = [
           [
             "Some smaller grey text, such as captions and labels, is lighter than WCAG AA recommends. If any text is hard to read, please tell us.",
             "Some sections are long, pinned scroll animations. With reduced motion turned on, they show as normal static content.",
-            "The pixel-art backgrounds and the motion reel are decorative and have no spoken content.",
+            "The pixel-art backgrounds are decorative and have no spoken content.",
             "Certificate images contain text that isn't fully described in the image description; their titles and issuers are written out next to them.",
           ],
         ],
@@ -407,7 +407,7 @@ export const legalPages: LegalPage[] = [
             "Cookies set: 0",
             "Analytics or advertising trackers: 0",
             "Third-party scripts loaded: 0",
-            "Third-party requests when a page loads: 0 (fonts, images and the motion reel are all served from xanti.dev)",
+            "Third-party requests when a page loads: 0 (fonts and images are all served from xanti.dev)",
           ],
         ],
       },
