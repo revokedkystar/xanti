@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PinnedWork } from "@/components/pinned-work";
 import { PixelField } from "@/components/pixel-field";
-import { ProcessGlobe } from "@/components/process-globe";
+import { BuildWindow } from "@/components/build-window";
 import { HERO_DISSOLVE } from "@/components/hero-events";
 import { HashScroll } from "@/components/hash-scroll";
 import { HeroHeadline } from "@/components/hero-headline";
@@ -17,8 +17,8 @@ import { SiteHeader } from "@/components/site-header";
 import { PillLink } from "@/components/ui";
 import {
   caseStudies,
-  places,
-  globeLines,
+  clients,
+  buildLines,
   site,
   cloud,
   nightFade,
@@ -59,7 +59,7 @@ function Momentum() {
     <section aria-labelledby="momentum" className="relative overflow-x-clip">
       <PixelField palette={nightFade} mode="fade-up" seed={41} className="h-[220px] w-full sm:h-[300px]" />
       <div className="bg-[#050505] pb-16 text-white sm:pb-20">
-        <ProcessGlobe places={places} lines={globeLines} />
+        <BuildWindow clients={clients} lines={buildLines} />
 
         <div className="wrap mt-16 grid gap-8 lg:mt-20 lg:grid-cols-2 lg:gap-4">
           <h2 id="momentum" data-scroll className="fx-slide text-[44px] leading-none font-medium tracking-[-0.01em] sm:text-6xl">

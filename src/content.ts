@@ -125,16 +125,17 @@ export const caseStudies = [
   },
 ];
 
-// Tags on the pixel wheel. On the globe each one slides onto its country.
-export const places = [
-  { label: "United Kingdom", color: "#0a0a0a", x: "40%", y: "12%", lat: 54, lon: -2, side: "left" as const },
-  { label: "United States", color: "#8f8f8f", x: "8%", y: "30%", lat: 39, lon: -98 },
-  { label: "Germany", color: "#d0d0d0", x: "62%", y: "68%", lat: 51, lon: 10 },
+// Client cursors that wander over the pixel browser window in "How I work".
+// x/y are where each rests when motion is reduced, as a share of the window.
+export const clients = [
+  { label: "United Kingdom", color: "#0a0a0a", x: "16%", y: "42%" },
+  { label: "United States", color: "#8f8f8f", x: "62%", y: "20%" },
+  { label: "Germany", color: "#d0d0d0", x: "54%", y: "66%" },
 ];
 
-// Lines that animate in and out while the globe is pinned. `from` and `to`
+// Lines that animate in and out while the browser window is pinned. `from` and `to`
 // are the share of the pinned scroll each line is on screen for (0 to 1).
-export const globeLines = [
+export const buildLines = [
   { text: "International clients", from: 0.06, to: 0.29 },
   { text: "Things are getting bigger", from: 0.29, to: 0.52 },
   { text: "But we're still growing", from: 0.52, to: 0.75 },
