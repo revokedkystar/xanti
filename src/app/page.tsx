@@ -78,34 +78,8 @@ function Momentum() {
             </div>
           </div>
         </div>
-
-        <div className="mt-16 sm:mt-24">
-          <Reel />
-        </div>
-
       </div>
       <PixelField palette={nightFade} mode="fade-down" seed={58} className="h-[220px] w-full sm:h-[300px]" />
-    </section>
-  );
-}
-
-function Reel() {
-  return (
-    // The motion reel (public/reel/motion-reel.html), locked to the screen
-    // while it scrolls past: the tall outer box keeps the sticky panel pinned
-    // for a screen and a half of scrolling before the page moves on.
-    // The frame fills the screen. Inside it the reel keeps its 16:9 shape, as
-    // large as fits, so nothing is cropped; the space around it gets the same
-    // grained black as the reel (about #050505 on average), so the two blend.
-    <section id="reel" aria-label="Motion reel" className="relative h-[250svh] bg-[#050505] motion-reduce:h-auto">
-      <div className="sticky top-0 flex h-svh items-center justify-center overflow-hidden bg-[#050505] motion-reduce:static motion-reduce:h-auto">
-        <iframe
-          src="/reel/motion-reel.html"
-          title="xanti studios motion reel"
-          loading="lazy"
-          className="block size-full border-0"
-        />
-      </div>
     </section>
   );
 }
